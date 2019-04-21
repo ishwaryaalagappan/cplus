@@ -1,4 +1,4 @@
-/* This program is to find the area of Square given the side of the square in numeric format */
+/* This program is to find the area of Square given the side  in numeric format */
 
 #include<iostream.h>
 #include<conio.h>
