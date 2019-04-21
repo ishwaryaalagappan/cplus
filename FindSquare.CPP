@@ -22,7 +22,7 @@ class square
 	}
 	void showdata()
 	{
-		cout<<"The area is "<<area;
+		cout<<"The area of the Square is "<<area;
 	}
 };
 
