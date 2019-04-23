@@ -2,7 +2,7 @@
 #include<iostream.h>
 #include<conio.h>
 
-/* declaration */
+/* Declaration of class */
 
 class book
 {
@@ -14,6 +14,9 @@ class book
     {
       x=0;
     }
+   
+   /* Pure virtual function */
+
   virtual void getdata()=0;
   virtual void putdata()=0;
 };
