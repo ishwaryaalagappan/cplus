@@ -2,6 +2,8 @@
 #include<iostream.h>
 #include<conio.h>
 
+/* declaration */
+
 class book
 {
   private:
