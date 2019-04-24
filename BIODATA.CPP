@@ -3,6 +3,8 @@
 #include<iostream.h>
 #include<conio.h>
 
+/* Declaration of the class */
+
 class biodata
 {
     private:
@@ -16,6 +18,9 @@ class biodata
 
     void getdata()
     {
+
+/* Get the input from the user */
+
 	    cout<<"ENTER THE DETAILS"<<endl;
 	    cout<<"================="<<endl;
 	    cout<<"Enter your name:";
@@ -34,6 +39,9 @@ class biodata
 
     void showdata()
     {
+
+/* Display the inputs received from the user */
+
 	    cout<<"BIODATA"<<endl;
 	    cout<<"======="<<endl;
 	    cout<<"Name          :"<<name<<endl;
@@ -48,6 +56,8 @@ class biodata
 
     void main()
     {
+
+/* Declaring and calling the object */
 
 	    clrscr();
 	    biodata b;
