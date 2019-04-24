@@ -2,6 +2,9 @@
 
 #include<iostream.h>
 #include<conio.h>
+
+/* Declaration of the class */
+
 class square
 {
 	private:
@@ -28,6 +31,9 @@ class square
 
 void main()
 {
+
+/* Declaring and calling the object */
+
 	clrscr();
 	square s;
 	s.getdata();
