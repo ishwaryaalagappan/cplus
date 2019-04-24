@@ -1,12 +1,17 @@
 #include<iostream.h>
 #include<conio.h>
 
+/* Declaration of the class*/
+
 class exam
 {
    private:
    int sno,mark1,mark2;
 
    public:
+
+/* calling of function */
+
      exam()
      {
 	cout<<"enter the sno";
@@ -25,6 +30,9 @@ class exam
 
      void main()
      {
+
+/* Declaring and calling the object */
+
 	clrscr();
 	exam e;
 	e.showdata();
